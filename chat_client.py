@@ -13,6 +13,7 @@ if __name__ == "__main__":
     # host = raw_input("Enter server IP")
     host = "127.0.0.1"
     port = 5000
+    #remember to change the port according to your pc
    
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
